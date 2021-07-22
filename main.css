@@ -1,0 +1,105 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	color: 000;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.container {
+	white-space: 1170px;
+	margin: 0 auto;
+}
+.header{
+	background: url('../img/background.png') no-repeat center top / cover;
+}
+
+header a {
+	color: #FFFFFF; /*все что в шапке под а перекрасить*/
+}
+.logo {
+	
+	margin-top: 20px;
+	margin-left: 90px;
+	margin-right: 60px;
+}
+.menu {
+	margin-top: 60px;
+	display: flex;  /*все что в контейнере менб в одну строку*/
+}
+.menu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+}
+.menu li {
+	margin-right: 42px ;
+}
+.nav {
+	padding-top: 20px;
+	display: flex; /*чтобы все что было в нав в одну строку*/
+}
+.zagolovok {
+	margin-left: 90px ;
+	margin-top: 80px;
+	font-weight: bold ;
+	font-size: 42px;
+	color:  #FFFFFF ;
+
+}
+.zagolovokp {
+	margin-left: 90px ;
+	margin-top: -50px;
+	font-weight: bold ;
+	font-size: 42px;
+	color:  #FFFFFF ;
+
+}
+.desc {
+	margin-left: 90px;
+	margin-top: -20px;
+	font-size: 24px;
+	color:  #FFFFFF ;
+}
+
+.popular {
+	margin-top: 50px;
+	font-weight: bold ;
+	color: #FFF;
+	margin-left: 90px;
+	font-size: 28px;
+}
+
+
+.tel {
+	margin-top: 50px;
+	margin-left: 90px ;
+	color: #FFF;
+}
+.top{
+	border-radius: 10px;
+	width: 247px;
+	height: 153px;
+	
+}
+.tab{
+	padding: 10px;
+	margin-left: 90px;
+	margin-top: 30px;
+}
+td, tr {
+	font-size: 18px;
+	color: #FFF;
+	text-align: center;
+}
